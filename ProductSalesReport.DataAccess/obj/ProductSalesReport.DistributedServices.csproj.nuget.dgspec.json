@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nicotrabajo\\Downloads\\ProductSalesReport\\ProductSalesReport.DataAccess\\ProductSalesReport.DistributedServices.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nicotrabajo\\Downloads\\ProductSalesReport\\ProductSalesReport.DataAccess\\ProductSalesReport.DistributedServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicotrabajo\\Downloads\\ProductSalesReport\\ProductSalesReport.DataAccess\\ProductSalesReport.DistributedServices.csproj",
+        "projectName": "ProductSalesReport.DistributedServices",
+        "projectPath": "C:\\Users\\Nicotrabajo\\Downloads\\ProductSalesReport\\ProductSalesReport.DataAccess\\ProductSalesReport.DistributedServices.csproj",
+        "packagesPath": "C:\\Users\\Nicotrabajo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicotrabajo\\Downloads\\ProductSalesReport\\ProductSalesReport.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nicotrabajo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Nicotrabajo\\Downloads\\ProductSalesReport\\ProductSalesReport.Domain\\ProductSalesReport.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nicotrabajo\\Downloads\\ProductSalesReport\\ProductSalesReport.Domain\\ProductSalesReport.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nicotrabajo\\Downloads\\ProductSalesReport\\ProductSalesReport.Domain\\ProductSalesReport.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicotrabajo\\Downloads\\ProductSalesReport\\ProductSalesReport.Domain\\ProductSalesReport.Domain.csproj",
+        "projectName": "ProductSalesReport.Domain",
+        "projectPath": "C:\\Users\\Nicotrabajo\\Downloads\\ProductSalesReport\\ProductSalesReport.Domain\\ProductSalesReport.Domain.csproj",
+        "packagesPath": "C:\\Users\\Nicotrabajo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicotrabajo\\Downloads\\ProductSalesReport\\ProductSalesReport.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nicotrabajo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

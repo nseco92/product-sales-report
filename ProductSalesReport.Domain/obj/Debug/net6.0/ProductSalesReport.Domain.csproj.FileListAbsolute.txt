@@ -1,0 +1,17 @@
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\bin\Debug\net6.0\ProductSalesReport.Domain.deps.json
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\bin\Debug\net6.0\ProductSalesReport.Domain.dll
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\bin\Debug\net6.0\ProductSalesReport.Domain.pdb
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\Debug\net6.0\ProductSalesReport.Domain.deps.json
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\Debug\net6.0\ProductSalesReport.Domain.dll
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\Debug\net6.0\ProductSalesReport.Domain.pdb
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\Debug\net6.0\ProductSalesReport.Domain.xml
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\ProductSalesReport.Domain.csproj.AssemblyReference.cache
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\ProductSalesReport.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\ProductSalesReport.Domain.AssemblyInfoInputs.cache
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\ProductSalesReport.Domain.AssemblyInfo.cs
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\ProductSalesReport.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\ProductSalesReport.Domain.dll
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\refint\ProductSalesReport.Domain.dll
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\ProductSalesReport.Domain.xml
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\ProductSalesReport.Domain.pdb
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.Domain\obj\Debug\net6.0\ref\ProductSalesReport.Domain.dll

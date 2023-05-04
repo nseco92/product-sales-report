@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductSalesReport.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:ProductSalesReport.Infrastructure.Migrations.initial">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductSalesReport.Infrastructure.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductSalesReport.Infrastructure.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductSalesReport.Infrastructure.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

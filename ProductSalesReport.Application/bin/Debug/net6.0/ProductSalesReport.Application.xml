@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductSalesReport.Application</name>
+    </assembly>
+    <members>
+        <member name="M:ProductSalesReport.Application.Controllers.RatesController.GetAll">
+            <summary>
+            Creates a TodoItem.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

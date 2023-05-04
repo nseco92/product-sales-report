@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductSalesReport.Application</name>
+    </assembly>
+    <members>
+        <member name="P:ProductSalesReport.Application.Dtos.ProductTransactionsDto.Transactions">
+            <summary>
+            All transactions for the product filtered by sku
+            </summary>
+            <example>
+            { "sku": "R2008", "amount": "17.95", "currency": "USD" }
+            </example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.ProductTransactionsDto.Total">
+            <summary>
+            Total sum of the transactions
+            </summary>
+            <example>13.21</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.RateDto.From">
+            <summary>
+            The currency from which it is converted
+            </summary>
+            <example>EUR</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.RateDto.To">
+            <summary>
+            The currency to be converted to
+            </summary>
+            <example>UDS</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.RateDto.Rate">
+            <summary>
+            The rate value
+            </summary>
+            <example>1.359</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.TransactionDto.Sku">
+            <summary>
+            Identifier for the transaction
+            </summary>
+            <example>T2006</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.TransactionDto.Amount">
+            <summary>
+            Price of the transaction
+            </summary>
+            <example>7.63</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.TransactionDto.Currency">
+            <summary>
+            Currency of the transaction
+            </summary>
+            <example>EUR</example>
+        </member>
+    </members>
+</doc>

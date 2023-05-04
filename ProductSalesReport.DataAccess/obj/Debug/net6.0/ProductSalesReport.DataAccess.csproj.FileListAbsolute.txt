@@ -1,0 +1,17 @@
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\bin\Debug\net6.0\ProductSalesReport.DataAccess.deps.json
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\bin\Debug\net6.0\ProductSalesReport.DataAccess.dll
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\bin\Debug\net6.0\ProductSalesReport.DataAccess.pdb
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\Debug\net6.0\ProductSalesReport.DataAccess.deps.json
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\Debug\net6.0\ProductSalesReport.DataAccess.dll
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\Debug\net6.0\ProductSalesReport.DataAccess.pdb
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\Debug\net6.0\ProductSalesReport.DataAccess.xml
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\ProductSalesReport.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\ProductSalesReport.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\ProductSalesReport.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\ProductSalesReport.DataAccess.AssemblyInfo.cs
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\ProductSalesReport.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\ProductSalesReport.DataAccess.dll
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\refint\ProductSalesReport.DataAccess.dll
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\ProductSalesReport.DataAccess.xml
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\ProductSalesReport.DataAccess.pdb
+C:\Users\Nicotrabajo\Downloads\ProductSalesReport\ProductSalesReport.DataAccess\obj\Debug\net6.0\ref\ProductSalesReport.DataAccess.dll

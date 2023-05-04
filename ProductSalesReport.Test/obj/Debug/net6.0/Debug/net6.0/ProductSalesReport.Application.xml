@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductSalesReport.Application</name>
+    </assembly>
+    <members>
+        <member name="M:ProductSalesReport.Application.Controllers.ProductsController.GetCollectionByProduct(System.String)">
+             <summary>
+             Get all Transactions of the products filtered by the sku provided
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/{productSku}/transactions
+            
+             </remarks>
+             <description>test</description>
+             <response code="200">Returns all the Transactions of the products filtered by the sku provided</response>
+        </member>
+        <member name="M:ProductSalesReport.Application.Controllers.RatesController.GetAll">
+             <summary>
+             Get all Rates
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/Rates
+            
+             </remarks>
+             <response code="200">Returns all the Rates</response>
+        </member>
+        <member name="M:ProductSalesReport.Application.Controllers.TransactionsController.GetAll">
+             <summary>
+             Get all Transactions
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/Transactions
+            
+             </remarks>
+             <response code="200">Returns all the Transactions</response>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.ProductTransactionsDto.Transactions">
+            <summary>
+            All transactions for the product filtered by sku
+            </summary>
+            <example>
+            { "sku": "R2008", "amount": "17.95", "currency": "USD" }
+            </example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.ProductTransactionsDto.Total">
+            <summary>
+            Total sum of the transactions
+            </summary>
+            <example>13.21</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.RateDto.From">
+            <summary>
+            The currency from which it is converted
+            </summary>
+            <example>EUR</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.RateDto.To">
+            <summary>
+            The currency to be converted to
+            </summary>
+            <example>UDS</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.RateDto.Rate">
+            <summary>
+            The rate value
+            </summary>
+            <example>1.359</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.TransactionDto.Sku">
+            <summary>
+            Identifier for the transaction
+            </summary>
+            <example>T2006</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.TransactionDto.Amount">
+            <summary>
+            Price of the transaction
+            </summary>
+            <example>7.63</example>
+        </member>
+        <member name="P:ProductSalesReport.Application.Dtos.TransactionDto.Currency">
+            <summary>
+            Currency of the transaction
+            </summary>
+            <example>EUR</example>
+        </member>
+    </members>
+</doc>
