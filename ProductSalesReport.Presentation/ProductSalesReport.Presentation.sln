@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductSalesReport.Infrastr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductSalesReport.Presentation", "ProductSalesReport.Presentation\ProductSalesReport.Presentation.csproj", "{D949F29F-F86D-40C1-84A5-840186A39901}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductSalesReport.Test", "..\Test\ProductSalesReport.Test.csproj", "{3978E3DA-1F2D-425B-B6D2-1600F2C6DB87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductSalesReport.Test", "..\ProductSalesReport.Test\ProductSalesReport.Test.csproj", "{3978E3DA-1F2D-425B-B6D2-1600F2C6DB87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

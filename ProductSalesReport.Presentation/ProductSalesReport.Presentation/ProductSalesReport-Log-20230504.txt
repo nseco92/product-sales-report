@@ -3517,3 +3517,96 @@ WHEN NOT MATCHED THEN
 INSERT ([From], [RateValue], [To])
 VALUES (i.[From], i.[RateValue], i.[To])
 OUTPUT INSERTED.[Id], i._Position;" (0723d8ff)
+2023-05-04T08:06:00.2476662+02:00 0HMQCCMEM5HC3:00000001 [INF] Start processing HTTP request "GET" https://apimocha.com/productsalesreport/transactions.json (338f1c77)
+2023-05-04T08:06:00.2593404+02:00 0HMQCCMEM5HC3:00000001 [INF] Sending HTTP request "GET" https://apimocha.com/productsalesreport/transactions.json (2e7ac211)
+2023-05-04T08:06:01.5097543+02:00 0HMQCCMEM5HC3:00000001 [INF] Received HTTP response headers after 1234.262ms - 200 (f0742c1f)
+2023-05-04T08:06:01.5138361+02:00 0HMQCCMEM5HC3:00000001 [INF] End processing HTTP request after 1303.2303ms - 200 (7656b38e)
+2023-05-04T08:06:05.4547565+02:00 0HMQCCMEM5HC3:00000001 [INF] Executed DbCommand ("108"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Amount], [t].[Currency], [t].[Sku]
+FROM [Transactions] AS [t]" (0723d8ff)
+2023-05-04T08:06:06.1629673+02:00 0HMQCCMEM5HC3:00000001 [INF] Executed DbCommand ("91"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (DbType = Int32), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32), @p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (DbType = Int32), @p18='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p0;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p1;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p2;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p3;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p4;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p5;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p6;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p7;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p8;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p9;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p10;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p11;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p12;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p13;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p14;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p15;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p16;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p17;
+DELETE FROM [Transactions]
+OUTPUT 1
+WHERE [Id] = @p18;" (0723d8ff)
+2023-05-04T08:06:06.3574576+02:00 0HMQCCMEM5HC3:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=["@p0='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p1='?' (Size = 512), @p2='?' (Size = 512), @p3='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p4='?' (Size = 512), @p5='?' (Size = 512), @p6='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p7='?' (Size = 512), @p8='?' (Size = 512), @p9='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p10='?' (Size = 512), @p11='?' (Size = 512), @p12='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p13='?' (Size = 512), @p14='?' (Size = 512), @p15='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p16='?' (Size = 512), @p17='?' (Size = 512), @p18='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p19='?' (Size = 512), @p20='?' (Size = 512), @p21='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p22='?' (Size = 512), @p23='?' (Size = 512), @p24='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p25='?' (Size = 512), @p26='?' (Size = 512), @p27='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p28='?' (Size = 512), @p29='?' (Size = 512), @p30='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p31='?' (Size = 512), @p32='?' (Size = 512), @p33='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p34='?' (Size = 512), @p35='?' (Size = 512), @p36='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p37='?' (Size = 512), @p38='?' (Size = 512), @p39='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p40='?' (Size = 512), @p41='?' (Size = 512), @p42='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p43='?' (Size = 512), @p44='?' (Size = 512), @p45='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p46='?' (Size = 512), @p47='?' (Size = 512), @p48='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p49='?' (Size = 512), @p50='?' (Size = 512), @p51='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p52='?' (Size = 512), @p53='?' (Size = 512), @p54='?' (Precision = 10) (Scale = 5) (DbType = Decimal), @p55='?' (Size = 512), @p56='?' (Size = 512)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Transactions] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2),
+(@p9, @p10, @p11, 3),
+(@p12, @p13, @p14, 4),
+(@p15, @p16, @p17, 5),
+(@p18, @p19, @p20, 6),
+(@p21, @p22, @p23, 7),
+(@p24, @p25, @p26, 8),
+(@p27, @p28, @p29, 9),
+(@p30, @p31, @p32, 10),
+(@p33, @p34, @p35, 11),
+(@p36, @p37, @p38, 12),
+(@p39, @p40, @p41, 13),
+(@p42, @p43, @p44, 14),
+(@p45, @p46, @p47, 15),
+(@p48, @p49, @p50, 16),
+(@p51, @p52, @p53, 17),
+(@p54, @p55, @p56, 18)) AS i ([Amount], [Currency], [Sku], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Amount], [Currency], [Sku])
+VALUES (i.[Amount], i.[Currency], i.[Sku])
+OUTPUT INSERTED.[Id], i._Position;" (0723d8ff)
