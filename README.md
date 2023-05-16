@@ -77,4 +77,4 @@ Después de cada conversión, el resultado debe ser redondeado a dos decimales u
 * Ver como controlas los errores y como los logueas.
 * Ver si usas un correcto naming-convention y consistente.
 * Ver como cubres el código con UnitTests.
-	
+
