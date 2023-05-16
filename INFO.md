@@ -1,29 +1,30 @@
-# Vueling-prueba-tecnica
+# product-sales-report
 
 ## ARQUITECTURA
 He seguido una arquitectura de N-capas con las siguientes capas:
-	### Application
+  
+    Application
 		- Lógica de coodinación entre capa presentación y dominio (ProductTransactionService, RateService, TransactionService) (Servicios más sus interfaces).
 		- Dtos para transferir datos entre capas.
 		- ProfileMapper responsable de como mapear objetos de dominio a DTO.
-	### DistributedServices: 
+	DistributedServices: 
 		- Interactúa con servicios externos para obtener datos (tasas de cambio y transacciones).
 		- Se definen interfaces que definen los contratos para los servicios (RateExternalService y TransactionExternalService).
-	### Domain: 
+	Domain: 
 		- Implementa la lógica de negocio principal.
 		- Entidades.
 		- IRateRepository y ITransactionRepository, interfaces que definen las operaciones necesarias para interactuar con los repositorios(recuperan y almacenan datos de entidades) de las entidades Rate y Transaction.
 		- CurrencyConverterService se encarga de la lógica de negocio para convertir las transacciones en la moneda objetivo utilizando las tasas de cambio proporcionadas.
-	### Infrastructure:
+	Infrastructure:
 		- Proporciona acceso a datos externos, persistencia de datos y configuración de las entidades del modelo.
 		- RateEntityConfiguration y TransactionEntityConfiguration definen cómo deben ser las entidades en el contexto de base de datos.
 		- RateRepository y TransactionRepository responsables de acceder a los datos de las entidades y manejar el CRUD en base de datos, también interactúan con servicios externos para obtener y sincronizar datos. 
 		- Archivos relacionados con EntitiFramework(migraciones, ApplicationDbContextModelSnapshot, configuración contexto base de datos).
-	### Presentation:
+	Presentation:
 		- Controladores para manejar las diferentes solucitudes del programa.
 		- GlobalExceptionHandlingMiddleware, middleware para manejar excepciones globales en la aplicación. Registra las excepciones y devuelve una respuesta de error con el código de estado 500.
 		- Logs de errores
-	### Test: 
+	Test: 
 		- Pruebas Unitarias realizadas con xUnit.
 		- Pruebas para los Controllers y para el CurrencyConverterService.
 
@@ -42,16 +43,16 @@ He creado un middleware para gestionar los errores en el que se logea el error y
 Los logs se generan en la capa de presentación.
 
 ## PRINCIPIOS SOLID
-	### Principio de responsabilidad única 
+	Principio de responsabilidad única 
 		- Se ha seguido al dividir la funcionalidad en clases específicas como RateService y TransactionService, cada una de las cuales tiene una única responsabilidad.
-	### Principio de abierto/cerrado
+	Principio de abierto/cerrado
 		- Conseguido mediante el usa de interfaces como IRateService, ITransactionService y IProductTransactionService. Permiten que la funcionalidad se extienda o reemplace sin modificar las clases que dependen de ellas.
-	### Principio de sustitución de Liskov
+	Principio de sustitución de Liskov
 		- Aunque no he utilizado clases heredadas, el uso de interfaces y abstracciones promueve la capacidad de extender y reemplazar clases sin alterar las dependencias.
-	### Principio de segregación de interfaces
+	Principio de segregación de interfaces
 		- En el caso de interfaces como IRateService y ITransactionService, están diseñadas para ser pequeñas y específicas, evitando que las clases que las implementan tengan que implementar métodos no relevantes para ellas.
-	### Principio de inversión de dependencias
-		- En la aplicación, este principio se aplica al inyectar dependencias a través de interfaces en lugar de depender directamente de las implementaciones de las clases. Por ejemplo ProductTransactionService depende de IRateService, ITransactionService y ICurrencyConverterService en lugar de sus implementaciones concretas.
+	Principio de inversión de dependencias
+	    - En la aplicación, este principio se aplica al inyectar dependencias a través de interfaces en lugar de depender directamente de las implementaciones de las clases. Por ejemplo ProductTransactionService depende de IRateService, ITransactionService y ICurrencyConverterService en lugar de sus implementaciones concretas.
 
 ## OTROS
 Para obtener los datos de una api externa he añadido los ejemplos del documento más algunos más que me inventado a API Mocha, los links resultantes son los siguientes:
